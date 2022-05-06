@@ -1,0 +1,9 @@
+.app {
+    padding-top: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
