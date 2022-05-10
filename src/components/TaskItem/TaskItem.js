@@ -7,9 +7,8 @@ const TaskItem = ({task, deleteTask, doneTask}) => {
                 {task.msg}
             </p>
             <input 
-                className={classes.btn+ ' ' +classes.btn_reset} 
-                type="button" 
-                value='V'
+                className={classes.check+ ' ' +classes.btn+ ' ' +classes.btn_reset} 
+                type="button"
                 onClick={() => doneTask(task.id)}/>
             <input 
                 className={classes.btn+ ' ' +classes.btn_reset} 

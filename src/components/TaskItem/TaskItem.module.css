@@ -5,13 +5,14 @@
     font-size: 18px;
     letter-spacing: .3px;
 
-    background-color: #9E9885;
-    color: #fff;
+    /* background-color: #9E9885; */
+    border: 1px solid #8a8676;
+    color: #000;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 5px;
+    gap: 10px;
 
     box-shadow: 0 0 24px -9px rgba(66, 68, 90, 0.39);
     cursor: default;
@@ -19,7 +20,7 @@
 }
 
 .title {
-    width: 400px;
+    width: 440px;
     height: 40px;
     overflow: hidden;
     display: flex;
@@ -32,19 +33,27 @@
 }
 
 .btn {
-    color: #fff;
-    font-size: 17px;
-    height: 40px;
-    width: 60px;
-    background-color: #8a8676;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    /* background-color: #8a8676; */
+    border: 1px solid #8a8676;
     transition: all .1s;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .btn:hover {
-    cursor: pointer;
-    transform: scale(.9);
-    box-shadow: inset 0px 0px 10px -2px rgba(66, 68, 90, 0.39);
+    
+    /* transform: scale(.9); */
+    /* box-shadow: inset 0px 0px 10px -2px rgba(66, 68, 90, 0.39); */
+}
+
+.check {
+    background-image: url(../../../public/check.svg);
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .done {
